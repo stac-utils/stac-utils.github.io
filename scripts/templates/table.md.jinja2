@@ -1,0 +1,5 @@
+| Repository | Description | Badges | 👩‍🍳 |💁‍♂️ | 😋️ |
+| -- | -- | -- | -- | -- | -- |
+{%- for repository in repositories %}
+| [{{ repository.name }}]({{ repository.html_url }}) | {{ repository.description }} | ![GitHub Repo stars](https://img.shields.io/github/stars/stac-utils/{{ repository.name }}?style=flat-square) | {{ repository|is_for("data-providers")|check }} | {{ repository|is_for("developers")|check }} | {{ repository|is_for("data-users")|check }} |
+{%- endfor %}

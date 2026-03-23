@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+set -e
+
+scripts/get_repositories.py
+scripts/render.py
+uv run zensical build
