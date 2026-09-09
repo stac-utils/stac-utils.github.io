@@ -4,9 +4,6 @@ site_description = "Tools for working with SpatioTemporal Asset Catalogs (STAC)"
 site_author = "Pete Gadomski"
 site_url = "https://stac-utils.github.io"
 repo_url = "https://github.com/stac-utils/stac-utils.github.io"
-copyright = """
-Copyright &copy; 2026 The STAC PSC
-"""
 
 [project.theme]
 favicon = "stac-utils.png"
